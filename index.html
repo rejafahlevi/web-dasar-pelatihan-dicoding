@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Djawa | Timoer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- Alpine JS -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+    <div x-data="{mobileMenu: false}" @keydown.escape="mobileMenu = false">
+      <div class="navbar">
+        <div class="logo">
+          <a href="#">Djawa | Timoer</a>
+        </div>
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- Mobile Icon -->
+        <div class="mobileResponsive">
+          <button @click="mobileMenu = !mobileMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div x-show="mobileMenu" class="mobileMenu">
+        <a href="#home" @click="mobileMenu = false">HOME</a>
+        <a href="#about" @click="mobileMenu = false">About</a>
+      </div>
+    </div>
+    </header>
+    <!-- HOME-->
+    <main>
+    <div class="flex-column">
+      <div class="flex-row">
+          <div class="box" id="home">
+            <article>
+              <h1>Reog Ponorogo</h1>
+              <p>
+                <center><img src="assets/img/Reog of Ponorogo.jpg"></center>
+              </p>
+              <p>Reog (aksara Jawa: ꦫꦺꦪꦺꦴꦒ꧀, Réyog) adalah tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, ditambah beberapa penari bertopeng dan berkuda lumping dan Reog asli dari Indonesia [1] Reog merupakan salah satu seni budaya yang berasal dari Jawa Timur bagian barat-laut, dan Ponorogo dianggap sebagai kota asal Reog yang sebenarnya. Gerbang kota Ponorogo dihiasi oleh sosok warok dan gemblak, dua sosok yang ikut tampil pada saat Reog dipertunjukkan. Reog adalah salah satu budaya daerah di Indonesia yang masih sangat kental dengan hal-hal yang berbau mistik dan ilmu kebatinan yang kuat.
+                Reog Sebuah seni pertunjukan tua yang bertahan dari gempuran zaman. Memiliki nilai seni sekaligus nilai-nilai luhur. Reog Ponorogo adalah bentuk kesenian yang tumbuh berabad-abad lalu. Reog merupakan salah satu seni budaya yang berasal dari Jatim bagian barat-laut dan Ponorogo dianggap sebagai kota asal Reog yang sebenarnya. Gerbang kota Ponorogo dihiasi oleh sosok warok dan gemblak, dua sosok yang ikut tampil pada saat Reog dipertunjukkan. Reog adalah salah satu budaya daerah di Indonesia yang masih sangat kental dengan hal-hal yang berbau mistik dan ilmu kebatinan yang kuat. Tarian tradisional dalam arena terbuka yang berfungsi sebagai hiburan rakyat, mengandung unsur magis, penari utama adalah orang berkepala singa dengan hiasan bulu merak, ditambah beberapa penari bertopeng dan berkuda lumping. 
+                Ada dua ragam bentuk reog Ponorogo yang dikenal saat ini, yakni Reog Obyog dan Reog Festival. Reog modern biasanya dipentaskan dalam beberapa acara seperti pernikahan, khitanan, dan hari-hari besar Nasional. Seni Reog Ponorogo terdiri dari beberapa rangkaian 2 sampai 3 tarian pembukaan. Reog obyog Sering pentas di pelataran atau jalan tanpa mengikuti pakem tertentu. Biasanya mengisi acara hajatan, bersih desa, hingga pementasan semata untuk menghibur. Sedangkan Reog Festival sudah mengalami modifikasi dan ditampilkan sesuai pakem dalam acara tahunan Festival Reog yang diadakan Pemerintah Kota Ponorogo sejak 1997. Berdasarkan lokakarya pengusulan ICH UNESCO tanggal 15-16 Februari 2022, Reog Ponorogo masuk Daftar Warisan Budaya Tak benda (WBTb) UNESCO (United Nations Educational, Scientific and Cultural Organization).
+              </p>
+            </article>
+          </div>
+      </div>
+      <div class="flex-row">
+          <div class="box first">
+          <article>
+            <p> Berikut video pagelaran Reog Ponorogo di Alun - alun Ponorogo dalam rangka orasi Reog milik Indonesia : </p>
+            <center><iframe src="https://www.youtube.com/embed/xRGYPrAvbJk" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe></center>
+            <p>Sebanyak 40 reog unjuk diri di Jalan Utara Alun-Alun Ponorogo, Jawa Timur (Jatim). Puluhan Reog itu tampil usai Tim Juri dan Tim Direktorat Jenderal Kebudayaan telah memberikan rekomendasi untuk jamu melaju ke ICH-UNESCO.
+              Penampilan 40 reog ini sebagai bentuk pengharapan agar tim kembali memilih Reog untuk diusulkan ke ICH-UNESCO. Mereka khawatir jika Reog tak segera diusulkan, bisa punah di masa pandemi COVID-19 karena tak bisa tampil.
+            </p>
+            <h3>Daftar Pustaka</h3>
+            <a href="https://id.pinterest.com/pin/391953973830199278/">gambar</a>
+            <a href="https://id.wikipedia.org/wiki/Reog">artikel 1</a>
+            <a href="https://news.detik.com/berita/d-6023990/demi-rekomendasi-masuk-unesco-40-reog-tampil-di-alun-alun-ponorogo">artikel 2</a>
+          </article>
+          </div>
+          <div class="box second" id="about">
+            <aside>
+              <h2 >About</h2>
+              <h3 >Djawa | Timoer</h3>
+              <p> Merupakan website yang menginformasikan seputar budaya berbagai daerah di Jawa Timur. Dibuat pada bulan mei tahun 2022.</p>
+              <h3 >By</h3>
+              <img src="assets/img/profil.jpg">
+              <p>Mohammad Rifki Reza Fahlevi</p>
+              <p>Umur   : 22 tahun</p>
+              <p>Asal   : Kediri, Jawa Timur</p>
+              <p>Bergabung ke dicoding sejak 21 Juli 2020</p>
+            </aside>
+          </div>
+      </div>
+   </div>
+  </main>
+  <footer>
+    <h2>Djawa | Timoer</h2>
+    <p>Mohammad Rifki Reza Fahlevi Copyright 2022</p>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+@media only screen and (min-width: 720px) {
+    /* For responsive mobile phones: */
+    .mobileResponsive {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 719px) {
+    /* For responsive mobile phones: */
+    .menu {
+      display: none;
+    }
+  }
+  .navbar {
+    display: flex;
+    margin-top: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+    justify-content: space-between;
+  }
+  .logo a {
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 28px;
+  }
+  .menu a {
+    color: black;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+  }
+  .menu a:hover {
+    border-bottom: solid #1f2937;
+  }
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 1em 1.5em;
+  }
+  .mobileMenu a {
+    color: #6b7280;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+  }
+  .mobileMenu a:hover {
+    border-bottom: solid #1f2937;
+  }
+  .mobileResponsive button {
+    border: none;
+    background-color: whitesmoke;
+  }
+  .mobileResponsive button svg {
+    height: 1.75rem;
+    width: 1.75rem;
+    color: #6b7280;
+  }
+
+  
+
+ /*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+    .main {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+ }
+ /*untuk layar device berukuran kecil*/
+ @media only screen and (max-width: 719px){
+    .container {
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 6vw;
+    }
+    h2 {
+      font-size: 5vw;
+    }
+    h3 {
+      font-size: 4vw;
+    }
+
+    p {
+      font-size: 4vw;
+    }
+
+    .box {
+      margin: auto;
+      width:auto;
+      height: auto;
+      position:relative;
+      
+    }
+  }
+
+  body {
+    font-family: 'Fredoka', sans-serif;
+    margin: auto;
+    padding:auto;
+  }
+
+
+footer {
+  padding: 1.25rem;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+}
+
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.box {
+  flex-grow: 1;
+  margin: 5px;
+  padding:5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color:white;
+}
+
+.first {
+  flex-grow: 2;
+  size:60%;
+  padding: 20px;
+  line-height: 30px;
+  color:white;
+}
+.second {
+  flex-grow: 1;
+  size:40%;
+}
+
+article {
+  padding: 20px;
+  line-height: 30px;
+  color:white;
+}
+
+aside {
+  padding: 20px;
+  line-height: 30px;
+  color:white;
+}
+
+aside img {
+  max-width: 80%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+iframe {
+  max-width: 100%;
+  height: auto;
+}
